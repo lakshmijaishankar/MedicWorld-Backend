@@ -34,6 +34,7 @@ public class HomeController {
 	
 //	@Autowired
 //	private HomeDao homerep;
+// hello
 	
 	@PostMapping("uploadimage")
 	public ResponseEntity<Home> uploadImage(@RequestParam MultipartFile file,@RequestParam Map<String, String> map) throws IOException {
